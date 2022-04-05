@@ -1,0 +1,8 @@
+### Composer ###
+composer.phar
+/lib_ext/
+composer.lock
+
+### Other ###
+*index2.php
+.editorconfig

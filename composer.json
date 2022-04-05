@@ -1,0 +1,23 @@
+{
+    "name": "moisespontes/notification",
+    "description": "Esta é uma biblioteca que usa o composer como base para enviar e-mail",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Moises Pontes",
+        "email": "sesiom_assis@hotmail.com",
+        "role": "Developer"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Notifications\\": "_app/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    }
+}
